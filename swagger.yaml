@@ -1,12 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  description: "This is a sample server Petstore server.  You can find out more about\
-    \ Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).\
-    \  For this sample, you can use the api key `special-key` to test the authorization\
-    \ filters."
+  description: "this was the demo description for the DemoApi"
   version: "1.0.5"
-  title: "Swagger Petstore"
+  title: "DemoApi"
   termsOfService: "http://swagger.io/terms/"
   contact:
     email: "apiteam@swagger.io"
@@ -16,15 +13,15 @@ info:
 host: "petstore.swagger.io"
 basePath: "/v2"
 tags:
-- name: "pet"
-  description: "Everything about your Pets"
+- name: "car"
+  description: "Everything about your car"
   externalDocs:
     description: "Find out more"
     url: "http://swagger.io"
-- name: "store"
-  description: "Access to Petstore orders"
-- name: "user"
-  description: "Operations about user"
+- name: "show room"
+  description: "access car orders"
+- name: "buyer"
+  description: "customer how buy's the car"
   externalDocs:
     description: "Find out more about our store"
     url: "http://swagger.io"
